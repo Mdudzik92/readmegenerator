@@ -5,12 +5,12 @@ const generateMarkdown = require("./utils/generateMarkdown.js")
 const questions = [
 {
     type: "input",
-    name: "Name",
+    name: "title",
     message: "What is the name of your application?"
 },
 {
     type: "input",
-    name: "Description",
+    name: "description",
     message: "Please enter a brief description of your application:"
 },
 {
@@ -20,49 +20,39 @@ const questions = [
 },
 {
     type: "input",
-    name: "Installation",
+    name: "installation",
     message: "Installation info"
 },
 {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "How to use the application"
 },
 {
     type: "list",
-    name: "License",
+    name: "license",
     message: "Choose the correct license for your project",
     choices: ["MIT", "BSD", "None"]
 },
 {
     type: "input",
-    name: "Contributors",
+    name: "contributors",
     message: "Who contributed to creating this app"
 },
 {
     type: "input",
-    name: "Tests",
+    name: "tests",
     message: "Tests"
 },
-// {
-//     type: "input",
-//     name: "GitHub Username",
-//     message: "What is your GitHub username? Add your GitHub profile link here:"
-// },
-// {
-//     type: "input",
-//     name: "Email",
-//     message: "What is your email address? Add instructions on how to reach you with additional questions here:"
-// },
 {
     type: "input",
-    name: "Question1",
+    name: "question",
     message: 
         "What is your GitHub username? Add your GitHub profile link here:"
 },
 {
     type: "input",
-    name: "Question2",
+    name: "questions",
     message: "What is your email address? Add instructions on how to reach you with additional questions here:"
 }
 ];
@@ -70,7 +60,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
 fs.writeFileSync(fileName, data) 
-console.log("writeToFile")
+// console.log("writeToFile")
 }
 
 // function to initialize program
@@ -80,8 +70,7 @@ function init() {
     const data = generateMarkdown({...responses})
         console.log(data)
     writeToFile("newreadme.md", data)
-    })
-    
+    })   
 }
 
 // function call to initialize program
