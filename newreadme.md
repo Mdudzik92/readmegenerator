@@ -1,9 +1,9 @@
-# Good README Generator
-  # Application in which a user is prompted a series of questions, which then get printed into a new README file for immediate use in their projects.
-  # Just pull from my GitHub and give it a go!
-  # Open the command line and naviate to the correct folder. Then type in node index.js and follow the prompts.
+# README Generator
+  # This is an app which allows the user to answer a series of questions as input, then prints them as a usable README.md file for immediate inclusion into their projects.
+  # The user will need to have Node.js on their local machine, navigate to the folder which contains this app, and run 'node index.js'
+  # Answer the prompts and receive a brand new README for your project
   # Matt Dudzik
   # 
   # MIT
   # https://github.com/Mdudzik92
-  # mdudzik92@gmail.com
+  # Mdudzik92@gmail.com
