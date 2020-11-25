@@ -1,7 +1,7 @@
 * Good README Generator
 
 <!-- Live link to deployed app -->
-Repository: https://github.com/Mdudzik92/readmegenerator/
+Repository: https://github.com/Mdudzik92/readmegenerator/ <br>
 Deployed app: https://mdudzik92.github.io/readmegenerator/
 
 <!-- Technologies used -->
