@@ -1,9 +1,9 @@
-# README Generator
-  # This is an app which allows the user to answer a series of questions as input, then prints them as a usable README.md file for immediate inclusion into their projects.
-  # The user will need to have Node.js on their local machine, navigate to the folder which contains this app, and run 'node index.js'
-  # Answer the prompts and receive a brand new README for your project
-  # Matt Dudzik
+# README generator
+  # This app allows the user to create their own README for their new application
+  # Git pull this repository to your local machine, navigate to it in the terminal, and make sure you have Node JS and Inquirer installed. 
+  # Follow the prompts and receive your new README
+  # Matt D
   # 
   # MIT
-  # https://github.com/Mdudzik92
-  # Mdudzik92@gmail.com
+  # Matt@github
+  # Matt@website.com
