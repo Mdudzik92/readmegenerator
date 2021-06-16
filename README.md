@@ -3,7 +3,7 @@
 <!-- Live link to deployed app -->
 Repository: https://github.com/Mdudzik92/readmegenerator/ <br>
 Deployed app: Does not deploy, pull repo to use in terminal <br>
-Screencastify run-through: https://drive.google.com/file/d/10oELTICRCWGwLDECT45Bh3iKUlsS9PAq/view/
+Screencastify run-through: https://drive.google.com/file/d/10oELTICRCWGwLDECT45Bh3iKUlsS9PAq/
 
 <!-- Technologies used -->
 Node.js, Javascript, JSON
